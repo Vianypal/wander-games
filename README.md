@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+Star Wars Dashboard
+The Star Wars Dashboard is a web application that allows users to explore information about various content types in the Star Wars universe, such as films, people, planets, species, starships, and vehicles. The dashboard provides an intuitive interface to view and toggle between grid and list views for each category.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of Contents
+Introduction
+Features
+Getting Started
+Usage
+Technologies Used
+Contributing
+License
+Introduction
+The Star Wars Dashboard is designed to offer fans of the Star Wars universe an interactive way to explore and learn about the various elements in the franchise. It provides information on films, important characters, planets, species, starships, and vehicles, each presented in its respective category.
 
-## Available Scripts
+Features
+Films: Display a list of all Star Wars films with their title, poster image, and release date.
+People: View a list of important characters with their name, birthdate, and species.
+Planets: Explore a list of planets with their name, climate, and gravity details.
+Species: Discover various species with their name, homeworld, and lifespan information.
+Starships: Check out a list of starships with their name, model, and hyperdrive rating.
+Vehicles: Explore a list of vehicles with their name, model, and top speed.
+Toggle Views: Users can switch between grid and list views for each category.
+Interactive Sidebar: Clicking on a resource element opens a sidebar displaying detailed information.
+Getting Started
+Follow these steps to set up the Star Wars Dashboard locally:
 
-In the project directory, you can run:
+Clone the repository from GitHub:
+bash
+Copy code
+git clone https://github.com/yourusername/star-wars-dashboard.git
+Navigate to the project directory:
+bash
+Copy code
+cd star-wars-dashboard
+Install the required dependencies:
+bash
+Copy code
+npm install
+Start the development server:
+bash
+Copy code
+npm start
+The application will now be accessible at http://localhost:3000.
 
-### `npm start`
+Usage
+Upon accessing the Star Wars Dashboard, you will be presented with the main page, showcasing the different categories: Films, People, Planets, Species, Starships, and Vehicles. Each category will open as a separate page, displaying the resource elements in either a grid or list view, depending on the user's preference.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To view detailed information about a particular resource, click on the respective resource element. This will open a sidebar with additional details about the selected resource.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The menu dropdown located on each resource element offers additional actions or options related to that particular resource.
 
-### `npm test`
+Technologies Used
+The Star Wars Dashboard is built using the following technologies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React.js: Front-end JavaScript library for building user interfaces.
+Redux: State management library for managing application data.
+React Router: Declarative routing for the React application.
+Axios: HTTP client for fetching data from external APIs.
+HTML5 & CSS3: Markup and styling for the user interface.
+Contributing
+We welcome contributions to the Star Wars Dashboard. If you want to contribute, follow these steps:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fork the repository.
+Create a new branch: git checkout -b feature/your-feature-name.
+Commit your changes: git commit -m "Add your feature description".
+Push to the branch: git push origin feature/your-feature-name.
+Submit a pull request to the main branch.
+Please make sure to follow the existing code style and add appropriate tests for your changes.
